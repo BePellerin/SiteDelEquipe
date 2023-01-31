@@ -296,11 +296,13 @@ header.sticky{
 	border-radius: 8px;
 	cursor: pointer;
 }
-.row img{
-	width: 100%;
+.row img{	
+	width: 500px;
+	height: 350px;
 	border-radius: 8px;
 	display: block;
 	transition: transform 0.5s;
+	object-fit: cover;
 }
 .layer{
 	width: 100%;
