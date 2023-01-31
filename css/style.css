@@ -12,7 +12,7 @@
 	--second-bg-color: #202020;
 	--text-color: #fff;
 	--second-color: #ccc;
-	--main-color: #ff4d05;
+	--main-color: #c93312;
 	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
@@ -526,4 +526,12 @@ form textarea{
 	.navlist.open{
 		top: 100%;
 	}
+}
+
+.img_services{
+	height: 250px;
+	width: 230px;
+	border-radius: 15%;
+	box-shadow: 7px 7px 0px 0px #000000;
+	object-fit: cover;
 }
