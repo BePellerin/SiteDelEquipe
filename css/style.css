@@ -541,3 +541,11 @@ form textarea{
 		top: 100%;
 	}
 }
+
+.img_services{
+	height: 250px;
+	width: 230px;
+	border-radius: 15%;
+	box-shadow: 7px 7px 0px 0px #000000;
+	object-fit: cover;
+}
