@@ -179,6 +179,7 @@ header.sticky{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
+	background: linear-gradient(#c93312,#dd3232c1,#ccab1a   );
 	gap: 1.5rem;
 }
 .about-img img{
