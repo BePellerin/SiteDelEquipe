@@ -12,7 +12,7 @@
 	--second-bg-color: #202020;
 	--text-color: #fff;
 	--second-color: #ccc;
-	--main-color: #fda2eb;
+	--main-color: #fd5da8;
 	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
@@ -41,12 +41,8 @@ header{
 	font-weight: 700;
 	letter-spacing: 1px;
 }
-#Nomresto{
-	font-family: 'Covered By Your Grace', cursive;
-}
 span{
 	color: var(--main-color);
-	font-family: 'Covered By Your Grace', cursive;
 }
 .navlist{
 	display: flex;
@@ -96,24 +92,17 @@ section{
 	height: 32px;
 	padding: 0 15px;
 	line-height: 32px;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
 	border-radius: 5px;
 	background: var(--main-color);
 	color: var(--text-color);
 }
-#texteintro{
-	font-family: 'Covered By Your Grace', cursive;
-	font-size: 25px;
-}
 .two{
 	display: inline-block;
 	color: var(--second-color);
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
-}
-#The{
-	font-family: 'Covered By Your Grace', cursive;
 }
 .home-text h1{
 	font-size: var(--big-font);
@@ -146,11 +135,10 @@ section{
 	background: var(--main-color);
 	border-radius: 5px;
 	color: var(--text-color);
-	font-size: 25px;
+	font-size: 1rem;
 	letter-spacing: 1px;
 	font-weight: 600;
 	transition: all .45s ease;
-	font-family: 'Covered By Your Grace', cursive;
 }
 .btn:hover{
 	transform: scale(0.9);
@@ -159,11 +147,10 @@ section{
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 25px;
+	font-size: 15px;
 	font-weight: 600;
 	color: var(--text-color);
 	margin-left: 35px;
-	font-family: 'Covered By Your Grace', cursive;
 }
 .btn2 span i{
 	height: 55px;
@@ -192,7 +179,6 @@ header.sticky{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
-	background: linear-gradient(#c93312,#dd3232c1,#ccab1a   );
 	gap: 1.5rem;
 }
 .about-img img{
@@ -284,9 +270,10 @@ header.sticky{
 	cursor: pointer;
 }
 
+
 .portfolio-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 	align-items: center;
 	gap: 2.5rem;
 	margin-top: 5rem;
@@ -297,18 +284,19 @@ header.sticky{
 	border-radius: 8px;
 	cursor: pointer;
 }
-.row img{	
-	width: 500px;
-	height: 350px;
-	border-radius: 8px;
-	display: block;
-	transition: transform 0.5s;
-	object-fit: cover;
+.row img{
+   
+    width: 500px;
+    height: 350px;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+    object-fit: cover;
 }
 .layer{
 	width: 100%;
 	height: 0;
-	background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
+	background: linear-gradient(rgba(0,0,0,0.1), #fd5da8);
 	position: absolute;
 	border-radius: 8px;
 	left: 0;
@@ -409,7 +397,7 @@ header.sticky{
 }
 
 .contact-form form{
-	position: relative;
+	position: left;
 }
 .contact-form form input,
 form textarea{
@@ -438,6 +426,11 @@ form textarea{
 .contact-form .submit:hover{
 	transform: scale(1.1);
 	cursor: pointer;
+}
+#btn18{
+
+	height: 15px;
+	width:15px;
 }
 
 .end{
